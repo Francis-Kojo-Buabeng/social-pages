@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+}
+#buttonContent a{
+    border: 1px solid var(--Grey-700);
+    background-color: var(--Grey-700);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 12px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+   padding: 0.7rex 7.5rex;
+}
+#frontend{
+    display: block;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+/* profile section */
+img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.container{
+    text-align: center;
+    background-color: var(--Grey-800);
+    border-radius: 10px; 
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5vh;
+    margin-bottom: 0;
+}
+
+#pTag{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+#buttonContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buttonContent button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 20px;
+    padding: 30px;
+    color: #fff;
+}
+.a-tag{
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 375px ){
+    .container{
+        width: 500px;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
